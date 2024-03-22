@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: Growth CRO AI
+Plugin Name: GrowthApp CRO AI
 Plugin URI: https://growthapp.io
 Description: Your AI-Powered CRO Assistant That Does All Conversion Works For You.
 Version: 1.0
 Author: Growth App
 Author URI: https://growthapp.io
 License: GPLv2 or later
- * Text Domain: growth-app
+Text Domain: growth-app
 */
 
 /**
@@ -18,7 +18,7 @@ License: GPLv2 or later
 function growth_app_tracking_menu() 
 {
     add_menu_page( 
-        __('Growth App Tracking Settings', 'growth-app'),
+        __( 'Growth App Tracking Settings', 'growth-app' ),
         'GrowthApp AI', 
         'manage_options', 
         'growth-app-tracking-settings', 
